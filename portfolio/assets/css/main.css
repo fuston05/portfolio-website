@@ -12,7 +12,7 @@ iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,	
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #777777;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1554,19 +1554,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: #fff !important;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: #fff !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: #fff !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: #fff !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -1987,15 +1987,16 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+		background-image: url("images/bg1_test.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
+		background-size: cover;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: rgb(163, 163, 163);
 		}
 
 		.wrapper.style2 {
@@ -2015,7 +2016,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color: rgb(173, 173, 173);
 			}
 
 			.wrapper.style4 form input[type=text],
